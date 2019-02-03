@@ -6,3 +6,10 @@ cd "$HOME"
 
 echo "Init submodules"
 yadm submodule update --recursive --init
+
+echo "Install dein"
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > /tmp/installer.sh
+bash /tmp/installer.sh ~/.config/dein > /dev/null
+
+vim +"call dein#install()" +qall
+vim +"call dein#update()" +qall
