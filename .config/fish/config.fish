@@ -1,7 +1,7 @@
 #alias vim=nvim
 alias git=hub
 
-if test (hostname) = "dachstein"
+if test (uname -s) = "Darwin"
   # nix
   export NIX_PATH="nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixpkgs:/nix/var/nix/profiles/per-user/root/channels"
   any-nix-shell fish --info-right | source
