@@ -1,0 +1,40 @@
+{
+  "modules": {
+    "sentrynerf": {
+      "enabled": true,
+      "options": {}
+    },
+    "experiments": {
+      "enabled": true
+    },
+    "twemojiPatch": {
+      "enabled": true
+    },
+    "ohninefnine": {
+      "enabled": true
+    },
+    "@hh2/postnet": {
+      "enabled": true,
+      "options": {
+        "authorization": ""
+      }
+    },
+    "scienceLog": {
+      "enabled": true
+    },
+    "customsearch": {
+      "enabled": true
+    },
+    "emojiGuildName": {
+      "enabled": true
+    },
+    "latex": {
+      "enabled": false 
+    }
+  },
+  "loggers": {
+    "Science": 0,
+    "Module Injector": 0,
+    "Module Resolver": 0
+  }
+}
