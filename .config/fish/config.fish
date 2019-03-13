@@ -23,3 +23,7 @@ export EDITOR="vim"
 export GOPATH=$HOME/go
 export N_PREFIX=$HOME/n
 
+# hadk stuff
+set -x PLATFORM_SDK_ROOT /srv/mer
+alias sfossdk=$PLATFORM_SDK_ROOT/sdks/sfossdk/mer-sdk-chroot
+set -x ANDROID_ROOT $HOME/Dev/hadk
