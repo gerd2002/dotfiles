@@ -17,3 +17,5 @@
 
 [http]
 	cookiefile = /Users/gs/.gitcookies
+[color]
+	ui = auto
