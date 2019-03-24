@@ -1,2 +1,3 @@
 .ssh/keys/*
 .config/elixire.sh
+.lbryum/wallets/

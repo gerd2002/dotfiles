@@ -140,7 +140,9 @@ chunkc tiling::rule --owner \"Little Snitch Network Monitor\" --state float &
 chunkc tiling::rule --owner \"Little Snitch Software Update\" --state float &
 chunkc tiling::rule --owner Keka --state float &
 chunkc tiling::rule --owner Adium --state float &
-chunkc tiling::rule --owner Twitteriffic --state float &
+chunkc tiling::rule --owner Dino --state float &
+chunkc tiling::rule --name Telegram --state float &
+chunkc tiling::rule --owner Twitterrific --state float &
 chunkc tiling::rule --owner Mstdn --state float &
 chunkc tiling::rule --owner Übersicht --state float &
 chunkc tiling::rule --owner \"App Store\" --state float &

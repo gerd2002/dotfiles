@@ -17,6 +17,7 @@ fi
 
 for file in "$@"
 do
-    echo "Uploading $file..." >&2
-    curl -vv -H "Authorization: $elixtoken" -F "f=@$1" $elixend
+    export mimetype=`file --mime-type -b "$file"`
+    echo "Uploading $file... ($mimetype)" >&2
+    curl -vv -H "Authorization: $elixtoken" -F "f=@$file;type=$mimetype" $elixend
 done

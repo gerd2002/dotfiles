@@ -10,26 +10,11 @@
     "twemojiPatch": {
       "enabled": true
     },
-    "ohninefnine": {
-      "enabled": true
-    },
-    "@hh2/postnet": {
-      "enabled": true,
-      "options": {
-        "authorization": ""
-      }
-    },
     "scienceLog": {
       "enabled": true
     },
     "customsearch": {
       "enabled": true
-    },
-    "emojiGuildName": {
-      "enabled": true
-    },
-    "latex": {
-      "enabled": false 
     }
   },
   "loggers": {
