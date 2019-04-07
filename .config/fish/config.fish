@@ -18,6 +18,8 @@ alias kdiff="kitty +kitten icat"
 alias em="emacs --no-window-system"
 #alias vim=em
 
+alias kb=keybase
+
 export EDITOR="vim"
 
 export GOPATH=$HOME/go

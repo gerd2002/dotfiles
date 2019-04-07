@@ -21,6 +21,7 @@ if dein#load_state('$HOME/.config/dein')
   call dein#add('LnL7/vim-nix')
   call dein#add('dag/vim-fish')
   call dein#add('elmcast/elm-vim')
+  call dein#add('rhysd/vim-crystal')
   
   call dein#add('chriskempson/base16-vim')
 
