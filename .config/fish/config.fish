@@ -9,8 +9,8 @@ if test (uname -s) = "Darwin"
   # docker machine shit
   export DOCKER_TLS_VERIFY="1"
   export DOCKER_HOST="tcp://192.168.99.100:2376"
-  export DOCKER_CERT_PATH="/Users/gs/.docker/machine/machines/headless"
-  export DOCKER_MACHINE_NAME="headless"
+  export DOCKER_CERT_PATH="/Users/gs/.docker/machine/machines/default"
+  export DOCKER_MACHINE_NAME="default"
 end
 
 alias icat="kitty +kitten icat"
@@ -18,12 +18,18 @@ alias kdiff="kitty +kitten icat"
 alias em="emacs --no-window-system"
 #alias vim=em
 
+alias ersync="rsync -rHhu --progress"
+
 alias kb=keybase
 
 export EDITOR="vim"
 
 export GOPATH=$HOME/go
 export N_PREFIX=$HOME/n
+
+export GDK_SCALE=0.7
+export GDK_DPI_SCALE=0.7
+export CLUTTER_SCALE=0.7
 
 # hadk stuff
 set -x PLATFORM_SDK_ROOT /srv/mer
