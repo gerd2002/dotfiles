@@ -32,4 +32,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/Users/gs/\x2elocal/bin\x1e/Users/gs/\x2eyarn/bin\x1e/Users/gs/\x2ecargo/bin\x1e/Users/gs/go/bin\x1e/Users/gs/\x2eemacs\x2ed/bin\x1e/Users/gs/\x2ecargo/bin\x1e/Users/gs/Library/Python/3\x2e7/bin\x1e/Users/gs/n/bin\x1e/Applications/Wine\x1eStable\x2eapp/Contents/Resources/wine/bin
+SETUVAR fish_user_paths:/Users/gs/\x2enix\x2dprofile/bin\x1e/Users/gs/\x2elocal/bin\x1e/Users/gs/\x2eyarn/bin\x1e/Users/gs/\x2ecargo/bin\x1e/Users/gs/go/bin\x1e/Users/gs/\x2eemacs\x2ed/bin\x1e/Users/gs/\x2ecargo/bin\x1e/Users/gs/Library/Python/3\x2e7/bin\x1e/Users/gs/n/bin\x1e/Applications/Wine\x1eStable\x2eapp/Contents/Resources/wine/bin\x1e/Users/gs/\x2eyarn/bin\x1e/Users/gs/\x2eyarn/bin

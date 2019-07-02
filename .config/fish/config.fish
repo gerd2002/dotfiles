@@ -4,7 +4,7 @@ alias git=hub
 if test (uname -s) = "Darwin"
   # nix
   export NIX_PATH="nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixpkgs:/nix/var/nix/profiles/per-user/root/channels"
-  any-nix-shell fish --info-right | source
+  # any-nix-shell fish --info-right | source
 
   # docker machine shit
   export DOCKER_TLS_VERIFY="1"
@@ -36,3 +36,14 @@ set -x PLATFORM_SDK_ROOT /srv/mer
 alias sfossdk=$PLATFORM_SDK_ROOT/sdks/sfossdk/mer-sdk-chroot
 alias hadksdk="$PLATFORM_SDK_ROOT/sdks/sfossdk/usr/bin/ubu-chroot -r $PLATFORM_SDK_ROOT/sdks/sfossdk/srv/mer/sdks/ubuntu"
 set -x ANDROID_ROOT $HOME/Dev/hadk
+
+# workaround for 10.15
+set -x NIX_IGNORE_SYMLINK_STORE 1
+
+# dkp
+if test -e /opt/devkitpro
+  set -x DEVKITPRO /opt/devkitpro
+  set -x DEVKITARM $DEVKITPRO/devkitARM
+  set -x DEVKITPPC $DEVKITPRO/devkitPPC
+  set -x PATH $DEVKITPRO/tools/bin $PATH
+end

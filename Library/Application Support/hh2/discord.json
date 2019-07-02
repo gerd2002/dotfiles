@@ -4,32 +4,14 @@
       "enabled": true,
       "options": {}
     },
+    "tardid": {
+      "enabled": true
+    },
     "experiments": {
       "enabled": true
     },
     "twemojiPatch": {
       "enabled": true
-    },
-    "ohninefnine": {
-      "enabled": true
-    },
-    "@hh2/postnet": {
-      "enabled": true,
-      "options": {
-        "authorization": ""
-      }
-    },
-    "scienceLog": {
-      "enabled": true
-    },
-    "customsearch": {
-      "enabled": true
-    },
-    "emojiGuildName": {
-      "enabled": false
-    },
-    "latex": {
-      "enabled": false
     }
   },
   "loggers": {
