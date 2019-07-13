@@ -1,6 +1,0 @@
-[submodule "Library/Application Support/Übersicht/widgets/Pecan"]
-	path = Library/Application Support/Übersicht/widgets/Pecan
-	url = https://github.com/zzzeyez/Pecan.git
-[submodule "Library/Application Support/Übersicht/widgets/Xanthia"]
-	path = Library/Application Support/Übersicht/widgets/Xanthia
-	url = https://github.com/zzzeyez/Xanthia.git
