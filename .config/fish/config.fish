@@ -37,9 +37,6 @@ alias sfossdk=$PLATFORM_SDK_ROOT/sdks/sfossdk/mer-sdk-chroot
 alias hadksdk="$PLATFORM_SDK_ROOT/sdks/sfossdk/usr/bin/ubu-chroot -r $PLATFORM_SDK_ROOT/sdks/sfossdk/srv/mer/sdks/ubuntu"
 set -x ANDROID_ROOT $HOME/Dev/hadk
 
-# workaround for 10.15
-set -x NIX_IGNORE_SYMLINK_STORE 1
-
 # dkp
 if test -e /opt/devkitpro
   set -x DEVKITPRO /opt/devkitpro
