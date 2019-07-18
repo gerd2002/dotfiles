@@ -1,3 +1,4 @@
 .ssh/keys/*
+.config/aerc/accounts.conf
 .config/elixire.sh
 .lbryum/wallets/
