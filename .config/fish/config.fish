@@ -14,7 +14,7 @@ if test (uname -s) = "Darwin"
 end
 
 alias icat="kitty +kitten icat"
-alias kdiff="kitty +kitten icat"
+alias kdiff="kitty +kitten diff"
 alias em="emacs --no-window-system"
 #alias vim=em
 
@@ -30,6 +30,8 @@ export N_PREFIX=$HOME/n
 export GDK_SCALE=0.7
 export GDK_DPI_SCALE=0.7
 export CLUTTER_SCALE=0.7
+
+export GPG_TTY=(tty)
 
 # hadk stuff
 set -x PLATFORM_SDK_ROOT /srv/mer

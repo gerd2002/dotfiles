@@ -27,6 +27,7 @@ if dein#load_state('$HOME/.config/dein')
   call dein#add('derekwyatt/vim-scala')
   
   call dein#add('chriskempson/base16-vim')
+  call dein#add('ctrlpvim/ctrlp.vim')
 
   " Required:
   call dein#end()
@@ -184,3 +185,13 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+
+" ripgrep !
+if executable('rg')
+  " Use ripgrep over Grep
+  set grepprg=rg
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'rg -l ""'
+endif
