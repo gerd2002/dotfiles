@@ -1,0 +1,9 @@
+#!/bin/bash
+swaylock \
+      -i ~/Pictures/lock.png \
+      --clock \
+      --inside-color=00000000 --ring-color=ffffffff --line-uses-inside \
+      --key-hl-color=d23c3dff --bs-hl-color=d23c3dff --separator-color=00000000 \
+      --inside-ver-color=fecf4dff --inside-wrong-color=d23c3dff \
+      --ring-ver-color=ffffffff --ring-wrong-color=ffffffff \
+      --text-color="ffffffff"
