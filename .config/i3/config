@@ -191,6 +191,7 @@ bar {
 bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 10%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 10%- unmute
 bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
+bindsym XF86AudioMicMute exec amixer -D pulse sset Capture toggle
 
 bindsym XF86MonBrightnessUp exec doas xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec doas xbacklight -dec 10
